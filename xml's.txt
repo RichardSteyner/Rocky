@@ -1,0 +1,505 @@
+-->Login
+<PPMDResults s="PRDW2WFE01A8C7" lst="11/8/2019 12:17:48 PM"><Results success="0"><usercontext webserver="https://provapi.advancedmd.com/processrequest/API-100/TEMP" reportingServerURL="https://reportingservices-100.advancedmd.com/rs/reportrequest.aspx" helpurl="https://ow2-help-01-prd.advancedmd.com/help/" username="SAL1004" /></Results><Error><Fault><faultcode>Client</faultcode><faultstring>Client Error</faultstring><detail><code>-2147220476</code><description>The Office Key 143755 must be redirected to https://provapi.advancedmd.com/processrequest/API-100/TEMP. When logging in to AdvancedMD, if no security token (&lt;usercontext&gt; text) is returned, then you must redirect your login to the server indicated in the "webserver" attribute of the usercontext element.</description><class>AdvancedMD.Security.Login</class><method>LoginUser</method><linenum>0</linenum><source>AdvancedMD.Security.Login</source><extrainfo /></detail></Fault></Error></PPMDResults>
+
+
+
+--> GetToken
+<PPMDResults s="PRDW2WFE0DDAB2" lst="11/8/2019 12:30:19 PM"><Results success="1" api="1" version="7.0"><usercontext reportingServerURL="https://reportingservices-100.advancedmd.com/rs/reportrequest.aspx" adhocReportingURL="https://advancedinsight.advancedmd.com" aibenchmarksurl="https://benchmarks.advancedmd.com/index.html" helpurl="https://ow2-help-01-prd.advancedmd.com/help/" webserver="https://provapi.advancedmd.com/processrequest/API-100/TEMP" username="SAL1004" email="" checkemail="1" needsconfirmation="1" sendnewconfirmation="0" pmredirecturl="https://pm-wfe-135.advancedmd.com/practicemanager" ehrredirecturl="https://webclinical-135.advancedmd.com/practicemanager" telemedicineapiurl="https://telemed.advancedmd.com/Application.Web.API" capturechallengesettings="1" scanningserverurl="https://scan.advancedmd.com/dynamsoft/Resources.15.2/Resources/" cqmssoserviceurl="https://ow2-cqmsso-01.advancedmd.com/api/account" cqmsolutionurl="https://ow2-cqm-01.advancedmd.com" portalappintakeurl="https://patientportal.advancedmd.com/143755/onlineintake" portalappolsurl="https://patientportal.advancedmd.com/143755/onlinescheduling" apptreminderapiurl="https://go.advancedmd.com/api/pe/reminders" servertimezone="Pacific Standard Time" providerid="0" defaultprofileid="0" departmentid="0" clinicaluser="0" ehronly="0" roleid="219" officecode="143755" logincode="143755" officename="Baton Rouge Mens Clinic" admin="0" adminlimited="0" edicontact="0" ssoprovidername="" twofactorenabled="0" iscbouser="0" status="A" trainingTrackerUrl="https://pm-wfe-135.advancedmd.com/AdvancedMD.TrainingTracker/">143755CfUS0MW3I47y/1n0CC7xcZZfmLa9y1yg/U5nCWsgyaS+uQHcr88Uh/Fj60HOk8jJDqT/sh2JH91pZ9PnpkLEKS2AJpQM/fT4ITzTLzOYV7TCFwZrR5PLOUOk76L0O65t5tKFz+oC9BAu+ZcoxjivdGBgKDYSlrwPM7jgIfNGgkrB80zY4D5qtiiR2M1eHQUnpjjK5s6MnFUZMurPkRmceQ==</usercontext><variation code="amdspro" name="" /></Results><Error /></PPMDResults>
+
+
+
+--> UpdateProviders
+<PPMDResults s="PRDW2WFE052F0B" lst="11/8/2019 12:53:46 PM"><Results servertime="2019-11-08T12:53:45.540" providercount="2"><providerlist><provider id="121" lastname="WILLIAMS" firstname="ELIZABETH" middlename="" name="WILLIAMS,ELIZABETH" financialsummaryfid="218801214" accountreceivablefid="1611658389" practicefid="30" title="APRN" upinnumber="OTH000" cell="" pager="" homephone=" " email="ELIZABETH@NEMENSCLINIC.COM" changedat="2018-12-10T14:09:32.610" createuser="PPMD_STAYLOR" createdat="2018-02-12T11:59:03.047" changedby="PPMD_MMENLOV" type="" status="INACTIVE" emraccess="FULL" emractiveat="2018-02-12T00:00:00" isinstitutional="0" inactiveat="2018-12-10T14:09:32.610" inactiveby="PPMD_MMENLOV" updatestatus="C"><profilelist><profile id="249" profilecode="EWILL" license="NP 027361-23" federalid="" clianumber="" userfilefid="274013254" taxonomy="" npinumber="1023555620" billasfid="0" feeschedulefid="21092" referringproviderfid="126663" groupfid="26" statementgroupfid="27" description="WILLIAMS, ELIZABETH" facilityfid="20" xrefidschangedat="1900-01-01T00:00:00" address1="SUITE A" address2="14 KEEWAYDIN DRIVE" zipcode="03079" city="SALEM" state="NH" areacode="603" countrycode="USA" officephone="6033314640" officeextension="" fax="6033314641" changedat="2018-12-10T14:09:32.940" changedby="PPMD_MMENLOV" createuser="PPMD_STAYLOR" createdat="2018-02-12T11:59:03.153" isdefault="1" hideinchargeentry="0" providername="WILLIAMS,ELIZABETH" upinnumber="OTH000"/></profilelist></provider><provider id="168" lastname="DIFFILY" firstname="JARED" middlename="" name="DIFFILY,JARED" financialsummaryfid="218802667" accountreceivablefid="1611736452" practicefid="30" title="PA" upinnumber="OTH000" cell="" pager="" homephone=" " email="" changedat="2019-05-03T14:45:01.893" createuser="PPMD_MMENLOV" createdat="2018-12-10T14:11:24.627" changedby="PPMD_NMARTIN" type="PA" status="ACTIVE" emraccess="FULL" emractiveat="2018-12-10T00:00:00" isinstitutional="0" inactiveat="1900-01-01T00:00:00" inactiveby="" updatestatus="N"><profilelist><profile id="421" profilecode="JDIFF" license="" federalid="815252299" clianumber="" userfilefid="274014256" taxonomy="363AM0700X" npinumber="1639591183" billasfid="0" feeschedulefid="21092" referringproviderfid="127094" groupfid="26" statementgroupfid="27" description="DIFFILY,JARED" facilityfid="20" xrefidschangedat="1900-01-01T00:00:00" address1="SUITE A" address2="14 KEEWAYDIN DR" zipcode="03079-2839" city="SALEM" state="NH" areacode="603" countrycode="USA" officephone="6033314640" officeextension="" fax="6033314641" changedat="2019-05-03T14:45:02.160" changedby="PPMD_NMARTIN" createuser="PPMD_MMENLOV" createdat="2018-12-10T14:11:24.737" isdefault="1" hideinchargeentry="0" providername="DIFFILY,JARED" upinnumber="OTH000"/></profilelist></provider></providerlist></Results></PPMDResults>
+
+
+--> updatePatients
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<PPMDResults s="PRDW2WFE0E12F2" lst="11/8/2019 2:32:35 PM"><Results servertime="2019-11-08T14:32:33.943" patientcount="17"><patientlist><patient id="57676" lastname="WELCH" firstname="BRIAN" middlename="" name="WELCH,BRIAN" chart="1348        " title="MR" address1="306" address2="855 MAIN STREET UNIT 306" zip="01801     " city="WOBURN" state="MA" officephone="                         " officeext="      " homephone="7815689409               " otherphone="7815689409               " additionalmrn="" ethnicityid="0" languageid="44" maritalstatusid="1" othertype="CELL" email="WELCHBRI@GMAIL.COM" maritalstatus="SINGLE" dob="1971-01-31T09:33:42" deceased="" sex="M" ssn="            " relationship="SELF" hipaarelationship="18" ethnicity="" language="English" races="White" ptinactivedate="" ptinactivestatuscode="" ptinactivedescription="" ptinactiveexcludedfromsearch="0" respparty="58855" rplastname="WELCH" rpfirstname="BRIAN" rpmiddlename="" rpfullname="WELCH,BRIAN" rpaddress1="306" rpaddress2="855 MAIN STREET UNIT 306" rpzipcode="01801     " rpcity="WOBURN" rpstate="MA" rpemployer="" rpaccttypecode="TA" rpaccttypedescription="TYPICAL ACCOUNT" rpofficephone="                         " rpofficeextension="      " rphomephone="7815689409               " rpotherphone="7815689409               " rpotherphonetype="CELL" rpemail="WELCHBRI@GMAIL.COM" rpdob="1971-01-31T09:33:42" rpgender="M" rpssn="            " rptitle="MR" rpemploymentstatus="1" rpcreatedat="2018-07-31T13:36:43.550" rpcreatedby="RCRECCO     " rpdisplay="1" rpchangedat="2019-11-08T05:34:55.553" rpchangedby="SGOODWIN" provider="168" profile="421" profilecode="JDIFF " profilename="DIFFILY,JARED" provlastname="DIFFILY" provfirstname="JARED" provmiddlename="" provfullname="DIFFILY,JARED" provtitle="PA" finclass="12" finclasscode="SP" finclassdescription="SELF PAY" employerid="0" employer="" insorder="" createdat="2018-07-31T13:36:43.457" changedat="2019-11-08T05:34:55.540" changedby="SGOODWIN" iccreatedat="" icchangedat="" refplanchangedat="2018-07-31T13:36:43.677" customdatachangedat="" episodechangedat="2018-07-31T13:36:43.693" updatestatus="C"><referralplanlist><referralplan id="62319" referraltype="I" defaultinchargeentry="0" byreferringproviderfid="126663" toreferringproviderfid="126663" reason="SELF-REFERRAL" preauthcode="" expirationdate="" maxcharge="0.0000" usedcharge="0.0000" maxauthvisits="0" authvisitsused="0" chargecodefid="1" statuscodefid="1" facilityfid="1" preauthorizationrequired="0" sequencenumber="1" referralplansourcefid="0" diagnosiscodes="" createdby="RCRECCO     " createdat="2018-07-28T13:36:43.457" changedby="" changedat="" byrefprovlastname="WILLIAMS" byrefprovfirstname="ELIZABETH" byrefprovmiddlename="" byrefprovfullname="WILLIAMS,ELIZABETH " byrefprovtitle="" /></referralplanlist></patient><patient id="78868" lastname="BOULET" firstname="LORNE" middlename="" name="BOULET,LORNE" chart="4616        " title="MR" address1="" address2="" zip="          " city="" state="" officephone="                         " officeext="      " homephone="                         " otherphone="6034064503               " additionalmrn="" ethnicityid="0" languageid="44" maritalstatusid="6" othertype="CELL" email="" maritalstatus="UNKNOWN" dob="1962-03-07T00:00:00" deceased="" sex="M" ssn="            " relationship="SELF" hipaarelationship="18" ethnicity="" language="English" races="" ptinactivedate="" ptinactivestatuscode="" ptinactivedescription="" ptinactiveexcludedfromsearch="0" respparty="81091" rplastname="BOULET" rpfirstname="LORNE" rpmiddlename="" rpfullname="BOULET,LORNE" rpaddress1="" rpaddress2="" rpzipcode="          " rpcity="" rpstate="" rpemployer="" rpaccttypecode="TA" rpaccttypedescription="TYPICAL ACCOUNT" rpofficephone="                         " rpofficeextension="      " rphomephone="                         " rpotherphone="6034064503               " rpotherphonetype="CELL" rpemail="" rpdob="1962-03-07T00:00:00" rpgender="M" rpssn="            " rptitle="MR" rpemploymentstatus="1" rpcreatedat="2019-11-08T12:08:00.097" rpcreatedby="SVASQUEZ    " rpdisplay="1" rpchangedat="" rpchangedby="" provider="168" profile="421" profilecode="JDIFF " profilename="DIFFILY,JARED" provlastname="DIFFILY" provfirstname="JARED" provmiddlename="" provfullname="DIFFILY,JARED" provtitle="PA" finclass="12" finclasscode="SP" finclassdescription="SELF PAY" employerid="0" employer="" insorder="" createdat="2019-11-08T12:08:00.003" changedat="" changedby="" iccreatedat="" icchangedat="" refplanchangedat="2019-11-08T12:08:00.207" customdatachangedat="" episodechangedat="2019-11-08T12:08:00.207" updatestatus="N"><referralplanlist><referralplan id="92394" referraltype="I" defaultinchargeentry="0" byreferringproviderfid="127094" toreferringproviderfid="127094" reason="SELF-REFERRAL" preauthcode="" expirationdate="" maxcharge="0.0000" usedcharge="0.0000" maxauthvisits="0" authvisitsused="0" chargecodefid="1" statuscodefid="1" facilityfid="1" preauthorizationrequired="0" sequencenumber="1" referralplansourcefid="0" diagnosiscodes="" createdby="SVASQUEZ    " createdat="2019-11-05T12:08:00.003" changedby="" changedat="" byrefprovlastname="DIFFILY" byrefprovfirstname="JARED" byrefprovmiddlename="" byrefprovfullname="DIFFILY,JARED " byrefprovtitle="P.A." /></referralplanlist></patient></patientlist></Results></PPMDResults>
+
+
+
+
+
+
+
+
+
+
+
+-->getDemographic
+<PPMDResults s="PRDW2WFE0A277D" lst="11/8/2019 3:07:38 PM"><Results><patientlist><patient id="pat57676" importid="" dob="01/31/1971" deceased="" inactive="" inactivestatus="" inactivetitle="" inactivedescription="" name="WELCH,BRIAN" respparty="resp58855" isinvoiceentity="0" profile="prof421" insorder="" sex="M" genderidentity="" genderidentityother="" orientation="" orientationother="" chart="1348" maritalstatus="1" employerid="" employer="" ssn="" finclasscode="SP" title="MR" relationship="1" hipaarelationship="18" languageid="44" ethnicityid="" language="English" ethnicity="" races="White" recalcbuckets="0" additionalmrn=""><address zip="01801" city="WOBURN" state="MA" address1="306" address2="855 MAIN STREET UNIT 306" areacode="" countrycode="" /><contactinfo name="" homephone="(781) 568-9409" officephone="" officeext="" otherphone="(781) 568-9409" othertype="C" email="WELCHBRI@GMAIL.COM" emailverificationstatus="1" preferredcommunicationfid="1" confidentialcommunicationfid="" communicationnote="" /><arbucketlist><arbucket buckettype="p" current="0.00" past30="0.00" past60="0.00" past90="0.00" past120="0.00" unapplied="0.00" total="0.00" /><arbucket buckettype="pi" current="0.00" past30="0.00" past60="0.00" past90="0.00" past120="0.00" unapplied="0.00" total="0.00" /></arbucketlist><insplanlist /><refplanlist><refplan id="rplan62319" refprov="rprov126663" type="I" refplanstatus="1" reason="SELF-REFERRAL" preauthreq="0" preauth="" refnum="" facility="fac1" proccode="" diagcodes="" begindate="07/28/2018" enddate="" maxvisits="" usedvisits="" maxamount="" usedamount="" status="status1" sequence="1" notes="" ismain="1" /></refplanlist><memolist /><filelist><file id="86082" name="ADAMS_2019-05-30" description="" filename="ADAMS_2019-05-30" filelocation="" filetype="P" fileext="" filesize="" patientid="57676" patientname="WELCH,BRIAN" patientchartnumber="1348" profileid="421" profilecode="JDIFF " profilename="DIFFILY,JARED" visitid="199186" facilityid="" referringproviderid="" referringprovidername="" referringprovidercode="" dos="2019-05-30T12:30:00" createdby="JDIFFILY" createdat="2019-05-30T09:31:22.613" printedby="" reviewedby="JARED DIFFILY" reviewedat="" approvedby="" approvedat="" lockedby="" lockedat="" changedat="" revision="0" zipmode="0" serverfile="0" charttype="E-Form"><categorylist><category code="PTFORM" name="Patient Forms" groupcode="PTFORM" groupname="Patient Forms" filetype="P" /></categorylist><revisionlist /></file><file id="31455" name="1348-WELBR-20180815" description="1348-WELBR-20180815" filename="137669-31455-0000" filelocation="" filetype="I" fileext="PNG" filesize="3252336" patientid="57676" patientname="WELCH,BRIAN" patientchartnumber="1348" profileid="249" profilecode="EWILL" profilename="WILLIAMS, ELIZABETH" visitid="" facilityid="" referringproviderid="" referringprovidername="" referringprovidercode="" dos="2018-08-15T21:24:00" createdby="RCRECCO" createdat="2018-08-15T14:32:37.380" printedby="" printedat="" reviewedby="" reviewedat="" approvedby="" approvedat="" lockedby="" lockedat="" changedby="SYSTEM" changedat="2018-08-15T23:04:17.680" revision="0" zipmode="0" serverfile="1" charttype="Chart"><categorylist><category id="25" code="MIUNSP" name="Unspecified" groupcode="MISC" groupname="Miscellaneous" filetype="0"/></categorylist><revisionlist/></file></filelist><visitlist/><primarycareprovider/></patient></patientlist><resppartylist><respparty id="resp58855" name="WELCH,BRIAN" accttype="ac_type4" acctnum="58855" dob="01/31/1971" sex="M" title="MR" employer="" employstatus="1" ssn="" sendstmt="1" stmtrestart="" holdreasonfid="0" holdreasondesc="" holdreasoncode="" billcycle="25" fincharge="0" stmtformat="" balancefwd="1" lastpmtdate="" lastpmtamount="" laststmtdate="" laststmtamount="" lastbillingcaption="" lastbillingtip="" paymentplanbalance="" ispaperless="0" ispaperlessportalchangedate=""><address zip="01801" city="WOBURN" state="MA" address1="306" address2="855 MAIN STREET UNIT 306" areacode="" countrycode=""/><contactinfo name="" homephone="(781) 568-9409" officephone="" officeext="" otherphone="(781) 568-9409" othertype="C" email="WELCHBRI@GMAIL.COM" preferredcommunicationfid="1" communicationnote=""/><creditcardonfile/><arbucketlist><arbucket buckettype="r" current="0.00" past30="0.00" past60="0.00" past90="0.00" past120="0.00" unapplied="0.00" total="0.00"/><arbucket buckettype="ri" current="0.00" past30="0.00" past60="0.00" past90="0.00" past120="0.00" unapplied="0.00" total="0.00"/></arbucketlist><familymemberlist><familymember id="family57676" name="WELCH,BRIAN" chart="1348" isrp="1"><contactinfo homephone="(781) 568-9409"/><address zip="01801" city="WOBURN" state="MA" address1="306" address2="855 MAIN STREET UNIT 306" countrycode=""/></familymember></familymemberlist></respparty></resppartylist><accttypelist><accttype id="ac_type4" name="TYPICAL ACCOUNT" code="TA"/></accttypelist><profilelist><profile id="prof421" name="DIFFILY,JARED" fullname="DIFFILY,JARED" code="JDIFF" chargefeesched="feesch21092" fullinactive="No" status="ACTIVE"><finclasslist><finclass id="fclass1" name="" code="" billins="0" billlab="1" ca="0" responsible="0" acceptassign="0" allowablewocode="" autowo="0" autowocode="" riskwocode="" riskpercent="0"/><finclass id="fclass2" name="DOUBLE INSURANCE COVERAGE" code="DC" billins="1" billlab="1" ca="0" responsible="1" accttype="ac_type4" acceptassign="1" allowablewocode="WOINS" autowo="0" autowocode="None" riskwocode="None" riskpercent="0"/></finclasslist></profile></profilelist><carrierlist/><proccodelist/><modcodelist/><diagcodelist/><facilitylist/><statuslist /><refproviderlist><refprovider id="rprov126663" name="WILLIAMS,ELIZABETH" code="EWILL" specialty="" practicename=""><address address1="" address2="" city="" state="" zip="" areacode="603"/><contactinfo name="" homephone="" officephone="" fax="" officeext="" otherphone="" othertype="C" email="" /></refprovider></refproviderlist><notelist/></Results><Error/></PPMDResults>
+
+
+
+
+
+
+-->getEhrAllergies
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<PPMDResults s="PRDW2WFE0E12F2" lst="11/11/2019 6:29:57 AM"><Results servertime="2019-11-11T06:29:56.370" allergycount="1"><allergylist><allergy id="6" allergy="NKDA" /></allergylist></Results></PPMDResults>
+
+
+
+
+
+-->getEhrLabResults
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<PPMDResults s="PRDW2WFE01CEAA" lst="11/11/2019 6:45:05 AM"><Results servertime="2019-11-11T06:45:03.703" labresultcount="3"><labresultlist><labresult id="1320" profileid="109" companyname="AMDS_Labs" obsdatetime="2019-10-31T09:58:00" specdatetime="2019-10-31T00:00:00" signby="" signat="" resultcode="RESULT_1" resultdesc="TT" resultvalue="557" resultunits="" resultrange="264-916" resultstatus="F" /><labresult id="1321" profileid="109" companyname="AMDS_Labs" obsdatetime="2019-10-31T09:58:00" specdatetime="2019-10-31T00:00:00" signby="" signat="" resultcode="RESULT_1" resultdesc="PSa" resultvalue="0.4" resultunits="" resultrange="0-4" resultstatus="F" /><labresult id="1322" profileid="109" companyname="AMDS_Labs" obsdatetime="2019-10-31T09:58:00" specdatetime="2019-10-31T00:00:00" signby="" signat="" resultcode="RESULT_1" resultdesc="E2" resultvalue="27.4" resultunits="" resultrange="7.6-42.6" resultstatus="F" /></labresultlist></Results></PPMDResults>
+
+
+
+
+
+
+
+
+
+
+-->getEhrNotes
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<PPMDResults s="PRDW2WFE01A8C7" lst="11/11/2019 12:04:01 PM">
+    <Results servertime="2019-11-11T12:04:01.973" patientnotecount="1">
+        <patientnotelist>
+            <patientnote id="100024416" templatename="NewIntake Note" notedatetime="2019-09-18T13:22:00" username="MALMGREN, MICHAEL" signedbyuser="MALMGREN, MICHAEL" reviewedbyuser="" confidential="0" printedat="">
+                <signerlist>
+                    <signer id="376690" username="MALMGREN, MICHAEL" signeddat="2019-09-23T11:30:52.470"/>
+                </signerlist>
+                <pagelist>
+                    <page id="541" pagename="Orders">
+                        <fieldlist>
+                            <field id="32586" ordinal="32586" name="" value=""/>
+                            <field id="32588" ordinal="32588" name="" value=""/>
+                            <field id="32590" ordinal="32590" name="" value=""/>
+                            <field id="32592" ordinal="32592" name="" value=""/>
+                            <field id="32594" ordinal="32594" name="" value=""/>
+                            <field id="32595" ordinal="32595" name="" value=""/>
+                            <field id="32596" ordinal="32596" name="" value=""/>
+                            <field id="32597" ordinal="32597" name="RMMC_QualTest1" value="169 ng/dl"/>
+                            <field id="32598" ordinal="32598" name="" value=""/>
+                            <field id="32599" ordinal="32599" name="RMMC_QualPSA1" value="0.75 ng/ml"/>
+                            <field id="32600" ordinal="32600" name="" value=""/>
+                            <field id="32601" ordinal="32601" name="rmmc_hemacue" value=""/>
+                            <field id="32602" ordinal="32602" name="" value=""/>
+                            <field id="32604" ordinal="32604" name="RMMC_OrderTime" value="9/18/2019 01:22 PM"/>
+                            <field id="32644" ordinal="32644" name="" value=""/>
+                            <field id="32708" ordinal="32708" name="RMMC_Qualnotes" value=""/>
+                            <field id="32712" ordinal="32712" name="RMMC_Provider" value="Michael L. Malmgren,PA-C, MMS"/>
+                            <field id="32713" ordinal="32713" name="Untitled1323" value="E29.1 Testicular Hypofunction"/>
+                            <field id="32715" ordinal="32715" name="RMMC_Staff1" value="Mitchel Baldner"/>
+                            <field id="32716" ordinal="32716" name="RMMC_ShipStatus" value=""/>
+                            <field id="32727" ordinal="32727" name="RMMC_QualLabs" value="Qualagen Testosterone, Qualagen PSA, Full Panel TRT(Qualigen) FSH and LH, CMP, Estradiol, CBC"/>
+                            <field id="32728" ordinal="32728" name="RMMC_Labsordered" value="Yes Labs were Ordered"/>
+                        </fieldlist>
+                    </page>
+                    <page id="542" pagename="A&amp;P">
+                        <fieldlist>
+                            <field id="32605" ordinal="32605" name="" value=""/>
+                            <field id="32621" ordinal="32621" name="" value=""/>
+                            <field id="32623" ordinal="32623" name="AP_VisitSummary" value="Discussed medication options including oral troches and TriMix. Discussed potential side effects as well as efficacy of both types of medication. Discussed mechanisms of action for each medication.&#x0A;testosterone replacement therapy&#x0A;Discussed testosterone replacement therapy in depth.  Discussed negative feedback, erythropoietic nature of the medications and the risks associated with testosterone replacement therapy in general. Emphasis placed on hematocrit and the effects of testosterone on the blood cells. "/>
+                            <field id="32711" ordinal="32711" name="DX_Diagnosis" value=" F52.21 MALE ERECTILE DISORDER&#x0A; E29.1 TESTICULAR HYPOFUNCTION"/>
+                        </fieldlist>
+                    </page>
+                    <page id="543" pagename="Test">
+                        <fieldlist>
+                            <field id="32543" ordinal="32543" name="RMMC_Check4" value=""/>
+                            <field id="32546" ordinal="32546" name="RMMC_Check5" value=""/>
+                            <field id="32549" ordinal="32549" name="RMMC_Check6" value=""/>
+                            <field id="32552" ordinal="32552" name="" value=""/>
+                            <field id="32553" ordinal="32553" name="rmmc_bp_sys" value=""/>
+                            <field id="32554" ordinal="32554" name="rmmc_bp_dia" value=""/>
+                            <field id="32555" ordinal="32555" name="" value=""/>
+                            <field id="32557" ordinal="32557" name="" value=""/>
+                            <field id="32559" ordinal="32559" name="" value=""/>
+                            <field id="32561" ordinal="32561" name="Rmmc_rev1time" value=""/>
+                            <field id="32564" ordinal="32564" name="" value=""/>
+                            <field id="32565" ordinal="32565" name="RMMC_Testdose" value="did not test"/>
+                            <field id="32566" ordinal="32566" name="" value=""/>
+                            <field id="32567" ordinal="32567" name="RMMC_NoteTime" value=""/>
+                            <field id="32568" ordinal="32568" name="" value=""/>
+                            <field id="32569" ordinal="32569" name="" value=""/>
+                            <field id="32570" ordinal="32570" name="" value=""/>
+                            <field id="32571" ordinal="32571" name="" value=""/>
+                            <field id="32572" ordinal="32572" name="RMMC_Quicknote" value="testosterone replacement therapy&#x0A;"/>
+                            <field id="32573" ordinal="32573" name="RMMC_Firstcheck" value=""/>
+                            <field id="32576" ordinal="32576" name="RMMC_Check1" value=""/>
+                            <field id="32579" ordinal="32579" name="RMMC_Check2" value=""/>
+                            <field id="32581" ordinal="32581" name="RMMC_Check3" value=""/>
+                            <field id="32582" ordinal="32582" name="RMMC_FinalDose" value=""/>
+                            <field id="32583" ordinal="32583" name="" value=""/>
+                            <field id="32584" ordinal="32584" name="" value=""/>
+                            <field id="32603" ordinal="32603" name="RMMC_Check7" value=""/>
+                            <field id="32607" ordinal="32607" name="" value=""/>
+                            <field id="32609" ordinal="32609" name="" value=""/>
+                            <field id="32610" ordinal="32610" name="rmmc_bp_sys1" value=""/>
+                            <field id="32611" ordinal="32611" name="" value=""/>
+                            <field id="32612" ordinal="32612" name="rmmc_bp_dia1" value=""/>
+                            <field id="32613" ordinal="32613" name="" value=""/>
+                            <field id="32615" ordinal="32615" name="" value=""/>
+                            <field id="32616" ordinal="32616" name="Rmmc_rev1time1" value=""/>
+                            <field id="32617" ordinal="32617" name="" value=""/>
+                            <field id="32618" ordinal="32618" name="RMMC_Check8" value=""/>
+                            <field id="32619" ordinal="32619" name="" value=""/>
+                            <field id="32625" ordinal="32625" name="" value=""/>
+                            <field id="32666" ordinal="32666" name="" value=""/>
+                            <field id="32677" ordinal="32677" name="" value=""/>
+                            <field id="32678" ordinal="32678" name="" value=""/>
+                            <field id="32679" ordinal="32679" name="" value=""/>
+                            <field id="32680" ordinal="32680" name="" value=""/>
+                            <field id="32681" ordinal="32681" name="" value=""/>
+                            <field id="32682" ordinal="32682" name="" value=""/>
+                            <field id="32683" ordinal="32683" name="StartTime2" value=""/>
+                            <field id="32684" ordinal="32684" name="EndTime2" value=""/>
+                            <field id="32685" ordinal="32685" name="New_TestStudyTime" value=""/>
+                            <field id="32710" ordinal="32710" name="Staff5" value=""/>
+                            <field id="32714" ordinal="32714" name="Staff1" value=""/>
+                            <field id="32723" ordinal="32723" name="RMMC_Firm4" value=""/>
+                            <field id="32726" ordinal="32726" name="RMMC_Firm1" value=""/>
+                            <field id="32731" ordinal="32731" name="RMMC_Firm6" value=""/>
+                            <field id="32732" ordinal="32732" name="Staff" value=""/>
+                            <field id="32734" ordinal="32734" name="Staff7" value=""/>
+                            <field id="32740" ordinal="32740" name="Untitled1404" value=""/>
+                            <field id="32741" ordinal="32741" name="RMMC_Firm3" value=""/>
+                            <field id="32744" ordinal="32744" name="Staff2" value=""/>
+                            <field id="32747" ordinal="32747" name="RMMC_Firm" value=""/>
+                            <field id="32748" ordinal="32748" name="RMMC_REV" value=""/>
+                            <field id="32749" ordinal="32749" name="Untitled1076" value=""/>
+                            <field id="32751" ordinal="32751" name="RMMC_Firm5" value=""/>
+                            <field id="32752" ordinal="32752" name="RMMC_Firm8" value=""/>
+                            <field id="32755" ordinal="32755" name="RMMC_Firm2" value=""/>
+                            <field id="32756" ordinal="32756" name="RMMC_REV1" value=""/>
+                            <field id="32759" ordinal="32759" name="Untitled1076a" value=""/>
+                            <field id="32763" ordinal="32763" name="Staff6" value=""/>
+                            <field id="32764" ordinal="32764" name="RMMC_Firm7" value=""/>
+                            <field id="32765" ordinal="32765" name="Staff3" value=""/>
+                        </fieldlist>
+                    </page>
+                    <page id="544" pagename="Plan Track">
+                        <fieldlist>
+                            <field id="32633" ordinal="32633" name="" value=""/>
+                            <field id="32635" ordinal="32635" name="" value=""/>
+                            <field id="32637" ordinal="32637" name="RMMC_TMXPLANSTART" value=""/>
+                            <field id="32638" ordinal="32638" name="" value=""/>
+                            <field id="32639" ordinal="32639" name="" value=""/>
+                            <field id="32640" ordinal="32640" name="rmmc_TMxplanend" value=""/>
+                            <field id="32641" ordinal="32641" name="RMMC_SUBStart" value=""/>
+                            <field id="32642" ordinal="32642" name="RMMC_SubEnd" value=""/>
+                            <field id="32643" ordinal="32643" name="" value=""/>
+                            <field id="32645" ordinal="32645" name="" value=""/>
+                            <field id="32667" ordinal="32667" name="RMMC_TRTStart" value="9/18/2019"/>
+                            <field id="32668" ordinal="32668" name="" value=""/>
+                            <field id="32669" ordinal="32669" name="" value=""/>
+                            <field id="32670" ordinal="32670" name="" value=""/>
+                            <field id="32671" ordinal="32671" name="" value=""/>
+                            <field id="32673" ordinal="32673" name="RMMC_ESWTStart" value=""/>
+                            <field id="32674" ordinal="32674" name="RMMC_ESWTEnd" value=""/>
+                            <field id="32675" ordinal="32675" name="" value=""/>
+                            <field id="32676" ordinal="32676" name="RMMC_Comments" value=""/>
+                            <field id="32686" ordinal="32686" name="RMMC_SermEnd" value=""/>
+                            <field id="32687" ordinal="32687" name="RMMC_TRTEnd" value="9/18/2020"/>
+                            <field id="32688" ordinal="32688" name="RMMC_SermStart" value=""/>
+                            <field id="32689" ordinal="32689" name="" value=""/>
+                            <field id="32690" ordinal="32690" name="" value=""/>
+                            <field id="32691" ordinal="32691" name="" value=""/>
+                            <field id="32692" ordinal="32692" name="" value=""/>
+                            <field id="32693" ordinal="32693" name="rmmc_subdose" value=""/>
+                            <field id="32694" ordinal="32694" name="" value=""/>
+                            <field id="32695" ordinal="32695" name="" value=""/>
+                            <field id="32696" ordinal="32696" name="" value=""/>
+                            <field id="32697" ordinal="32697" name="" value=""/>
+                            <field id="32699" ordinal="32699" name="" value=""/>
+                            <field id="32700" ordinal="32700" name="RMMC_TRTDose" value=""/>
+                            <field id="32701" ordinal="32701" name="" value=""/>
+                            <field id="32702" ordinal="32702" name="RMMC_DIMStart" value=""/>
+                            <field id="32703" ordinal="32703" name="" value=""/>
+                            <field id="32704" ordinal="32704" name="RMMC_DIMEnd" value=""/>
+                            <field id="32705" ordinal="32705" name="RMMC_HCGStart" value=""/>
+                            <field id="32706" ordinal="32706" name="RMMC_HCGEnd" value=""/>
+                            <field id="32707" ordinal="32707" name="RMMC_TRTLot" value=""/>
+                            <field id="32733" ordinal="32733" name="RMMC_TXplan" value="1YRTRT"/>
+                            <field id="32743" ordinal="32743" name="RMMC_GWNo" value=""/>
+                            <field id="32753" ordinal="32753" name="RMMC_Ship" value="NO - Clinic"/>
+                            <field id="32761" ordinal="32761" name="RMMC_coordinator" value="Gary Bidwell"/>
+                        </fieldlist>
+                    </page>
+                    <page id="545" pagename="HPI / Exam">
+                        <fieldlist>
+                            <field id="32542" ordinal="32542" name="" value=""/>
+                            <field id="32627" ordinal="32627" name="" value=""/>
+                            <field id="32630" ordinal="32630" name="" value=""/>
+                            <field id="32649" ordinal="32649" name="" value=""/>
+                            <field id="32650" ordinal="32650" name="NEMC_IIEF_SCORE" value="5 to 11 - Severe Erectile Dysfunction"/>
+                            <field id="32651" ordinal="32651" name="" value=""/>
+                            <field id="32653" ordinal="32653" name="" value=""/>
+                            <field id="32654" ordinal="32654" name="" value=""/>
+                            <field id="32657" ordinal="32657" name="" value=""/>
+                            <field id="32660" ordinal="32660" name="" value=""/>
+                            <field id="32663" ordinal="32663" name="" value=""/>
+                            <field id="32665" ordinal="32665" name="" value=""/>
+                            <field id="32722" ordinal="32722" name="PE_Resp" value="--"/>
+                            <field id="32724" ordinal="32724" name="PE_Cardio" value="--"/>
+                            <field id="32735" ordinal="32735" name="PE_Skin" value="--"/>
+                            <field id="32738" ordinal="32738" name="PE_Lymphatic" value="--"/>
+                            <field id="32745" ordinal="32745" name="PE_GenitoSexualSatisfaction" value="Concerns"/>
+                            <field id="32750" ordinal="32750" name="PE_NeuroMood" value="--"/>
+                            <field id="32754" ordinal="32754" name="PE_General" value="overweight and in no apparent distress"/>
+                            <field id="32757" ordinal="32757" name="HPI_Description" value="Chief complaint is Erectile dysfunction&#x0A;Symptoms have been present for 6 months&#x0A;He states he is unable to penetrate about 75%&#x0A;Average firmness of his erections on scale of 1 - 10 (10 being maximum hardness) is about 5&#x0A;His erections are lasting inconsistently &#x0A;&#x0A;Intervention(s) - None&#x0A;&#x0A;ADAM score -&#x0A;&#x0A;Pt has a history of diabetes, sleep apnea and prostate problems. "/>
+                            <field id="32758" ordinal="32758" name="PE_NeckThyroid" value="--"/>
+                            <field id="32848" ordinal="32848" name="PE_GenitoSexualSatisfactionConcerns" value="decreased duration, decreased firmness, decreased sex drive, decreased sexual satisfaction"/>
+                        </fieldlist>
+                    </page>
+                    <page id="546" pagename="GU EXAM">
+                        <fieldlist>
+                            <field id="32624" ordinal="32624" name="" value=""/>
+                            <field id="32648" ordinal="32648" name="" value=""/>
+                            <field id="32652" ordinal="32652" name="" value=""/>
+                            <field id="32655" ordinal="32655" name="" value=""/>
+                            <field id="32656" ordinal="32656" name="" value=""/>
+                            <field id="32709" ordinal="32709" name="PE_GastroAbdomen" value="--"/>
+                            <field id="32720" ordinal="32720" name="PE_Gender" value="Male"/>
+                            <field id="32736" ordinal="32736" name="PE_Lymphatic1" value="--"/>
+                            <field id="32737" ordinal="32737" name="PE_GastroLiver" value="--"/>
+                            <field id="32746" ordinal="32746" name="PE_Skin1" value="--"/>
+                            <field id="32783" ordinal="32783" name="PE_MaleGenitoScrotum" value="--"/>
+                            <field id="32784" ordinal="32784" name="" value=""/>
+                            <field id="32785" ordinal="32785" name="PE_MaleGenitoShaft" value="--"/>
+                            <field id="32786" ordinal="32786" name="" value=""/>
+                            <field id="32787" ordinal="32787" name="PE_MaleGenitoForeskin" value="--"/>
+                            <field id="32788" ordinal="32788" name="" value=""/>
+                            <field id="32790" ordinal="32790" name="" value=""/>
+                            <field id="32791" ordinal="32791" name="PE_MaleGenitoHernia" value="--"/>
+                            <field id="32792" ordinal="32792" name="" value=""/>
+                            <field id="32797" ordinal="32797" name="" value=""/>
+                            <field id="32824" ordinal="32824" name="" value=""/>
+                            <field id="32833" ordinal="32833" name="PE_MaleGenitoTestes" value="--"/>
+                            <field id="32834" ordinal="32834" name="PE_MaleGenitoUrethralMeatus" value="--"/>
+                            <field id="32835" ordinal="32835" name="PE_MaleGenitoEpididymis" value="--"/>
+                            <field id="32836" ordinal="32836" name="" value=""/>
+                            <field id="32851" ordinal="32851" name="PE_MaleGenitoProstate" value="--"/>
+                            <field id="32859" ordinal="32859" name="" value=""/>
+                        </fieldlist>
+                    </page>
+                    <page id="547" pagename="ADAMS">
+                        <fieldlist>
+                            <field id="32658" ordinal="32658" name="RMMC_AdjSideFX" value=""/>
+                            <field id="32659" ordinal="32659" name="" value=""/>
+                            <field id="32661" ordinal="32661" name="" value=""/>
+                            <field id="32718" ordinal="32718" name="RMMC_ROS" value="Medical Profile Reviewed, ROS as stated there in"/>
+                            <field id="32762" ordinal="32762" name="ROS_Option" value="Positive Areas"/>
+                            <field id="32800" ordinal="32800" name="ROS_EndocrineNegative" value="1"/>
+                            <field id="32818" ordinal="32818" name="ROS_Endocrine" value="2. He reports lack of energy, 5. He reports a decrease in the &quot;enjoyment of life&quot;, 7. He reports that his erections are not as firm as in the past"/>
+                            <field id="32819" ordinal="32819" name="" value=""/>
+                        </fieldlist>
+                    </page>
+                    <page id="548" pagename="History">
+                        <fieldlist>
+                            <field id="32626" ordinal="32626" name="" value=""/>
+                            <field id="32628" ordinal="32628" name="" value=""/>
+                            <field id="32629" ordinal="32629" name="" value=""/>
+                            <field id="32631" ordinal="32631" name="" value=""/>
+                            <field id="32632" ordinal="32632" name="" value=""/>
+                            <field id="32634" ordinal="32634" name="" value=""/>
+                            <field id="32636" ordinal="32636" name="MH_AdultHxMale_CurrentMeds" value="None"/>
+                            <field id="32646" ordinal="32646" name="SH_SmokingComments" value=""/>
+                            <field id="32647" ordinal="32647" name="" value=""/>
+                            <field id="32662" ordinal="32662" name="SH_AdultHxMale_HxDrugUse" value="None"/>
+                            <field id="32664" ordinal="32664" name="" value=""/>
+                            <field id="32672" ordinal="32672" name="RMMC_HxReviewed" value="The patient intake forms have been reviewed and the medical history reviewed.  Any updates to the patient input data will be annotated on this form. "/>
+                            <field id="32698" ordinal="32698" name="" value=""/>
+                            <field id="32729" ordinal="32729" name="PH_ReviewedAndUpdatedByPhysician" value="1"/>
+                            <field id="32730" ordinal="32730" name="MH_AdultHxMale_PastSurgeries" value="2014 Both hips replaced&#x0A;Denies: Trauma to penis/pelvis/testicles, curvature of penis when erect, TBI, OSA, prior testosterone usage/evaluation."/>
+                            <field id="32739" ordinal="32739" name="SH_SocialSubstanceEmploymentSexual" value=""/>
+                            <field id="32742" ordinal="32742" name="SH_Social" value=""/>
+                            <field id="32760" ordinal="32760" name="FH_AdultHxMale_SignificantFamMedHx" value="None knowned"/>
+                        </fieldlist>
+                    </page>
+                    <page id="549" pagename="Vitals">
+                        <fieldlist>
+                            <field id="32544" ordinal="32544" name="Vitals_O2SatRA" value="92"/>
+                            <field id="32545" ordinal="32545" name="" value=""/>
+                            <field id="32547" ordinal="32547" name="Vitals_Respiration" value=""/>
+                            <field id="32548" ordinal="32548" name="Vitals_Pulse" value="94"/>
+                            <field id="32550" ordinal="32550" name="Vitals_Temperature" value=""/>
+                            <field id="32551" ordinal="32551" name="" value=""/>
+                            <field id="32556" ordinal="32556" name="" value=""/>
+                            <field id="32558" ordinal="32558" name="" value=""/>
+                            <field id="32560" ordinal="32560" name="" value=""/>
+                            <field id="32562" ordinal="32562" name="Vitals_BP_SystolicPrev" value=""/>
+                            <field id="32563" ordinal="32563" name="" value=""/>
+                            <field id="32574" ordinal="32574" name="Vitals_BP_Diastolic1" value="98"/>
+                            <field id="32575" ordinal="32575" name="" value=""/>
+                            <field id="32577" ordinal="32577" name="Vitals_BP_Systolic1" value="146"/>
+                            <field id="32578" ordinal="32578" name="" value=""/>
+                            <field id="32580" ordinal="32580" name="Vitals_BP_DiastolicPrev" value=""/>
+                            <field id="32585" ordinal="32585" name="" value=""/>
+                            <field id="32587" ordinal="32587" name="" value=""/>
+                            <field id="32589" ordinal="32589" name="" value=""/>
+                            <field id="32591" ordinal="32591" name="RMMC_Complaint" value="Trouble Getting or Keeping an erection - Erectile Dysfunction"/>
+                            <field id="32593" ordinal="32593" name="" value=""/>
+                            <field id="32606" ordinal="32606" name="Vitals_Height" value=""/>
+                            <field id="32608" ordinal="32608" name="" value=""/>
+                            <field id="32614" ordinal="32614" name="" value=""/>
+                            <field id="32620" ordinal="32620" name="Vitals_WeightPrev" value=""/>
+                            <field id="32622" ordinal="32622" name="Vitals_Weight" value=""/>
+                            <field id="32717" ordinal="32717" name="Vitals_WeightChange" value=""/>
+                            <field id="32719" ordinal="32719" name="Vitals_BMI" value=""/>
+                            <field id="32721" ordinal="32721" name="Vitals_BP_Option1" value="Sitting"/>
+                            <field id="32725" ordinal="32725" name="Vitals_BP_Location1" value="--"/>
+                        </fieldlist>
+                    </page>
+                </pagelist>
+            </patientnote>
+        </patientnotelist>
+    </Results>
+</PPMDResults>
+
+
+
+--> templates with fields and send email
+
+String body = '';
+String[] toAddress =  new String[]{'rurupeque@cloudcreations.com'};
+for(Dom.XmlNode childElement1:AdvancedMDConnector.getAdvancedMDObject('NMC', '<ppmdmsg action="getehrtemplates" class="api" msgtime="' + Datetime.now().format()  + '"><template templatename="TemplateName" templatetype="TemplateType" templatetypeid="TemplateTypeID" defaultcategory="DefaultCategory" defaultcategoryid="DefaultCategoryID" isactive="IsActive" /><page pagename="PageName" pageindex="PageIndex" /><field ordinal="Ordinal" fieldname="FieldName" x="X" y="Y" width="Width" height="Height" font="Font" fontsize="FontSize" maxlength="MaxLength" defaultvalue="DefaultValue" /></ppmdmsg>')){
+    //System.debug(childElement1.getName());
+    for(Dom.XmlNode childElement2:childElement1.getChildElements()){
+        //System.debug(childElement2.getName());
+        if(String.isNotBlank(childElement2.getAttributeValue('id', ''))){ 
+            System.debug('Template: Id' + childElement2.getAttributeValue('id', '') + '--- Name: ' + childElement2.getAttributeValue('templatename', '') + '--- Is Active: ' + childElement2.getAttributeValue('isactive', ''));
+            body = body + '\nTemplate: Id' + childElement2.getAttributeValue('id', '') + '--- Name: ' + childElement2.getAttributeValue('templatename', '') + '--- Is Active: ' + childElement2.getAttributeValue('isactive', '');
+            //templateIds.add(childElement2.getAttributeValue('id', ''));
+            for(Dom.XmlNode childElement3:childElement2.getChildElements()){
+                //System.debug(childElement3.getName());
+                for(Dom.XmlNode childElement4:childElement3.getChildElements()){
+                    //System.debug(childElement4.getName());
+                    for(Dom.XmlNode childElement5:childElement4.getChildElements()){
+                        //System.debug(childElement5.getName());
+                        for(Dom.XmlNode childElement6:childElement5.getChildElements()){
+                            //System.debug(childElement6.getName());
+                            System.debug('Field: Ordinal' + childElement6.getAttributeValue('ordinal', '') + '--- Name: ' + childElement6.getAttributeValue('fieldname', ''));
+                        	body = body + '\nField: Ordinal' + childElement6.getAttributeValue('ordinal', '') + '--- Name: ' + childElement6.getAttributeValue('fieldname', '');
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+List<Messaging.SingleEmailMessage> mails = new List<Messaging.SingleEmailMessage>();
+Messaging.SingleEmailMessage mail = New Messaging.SingleEmailMessage();
+
+mail.setToAddresses(toAddress);
+mail.setSubject('Templates List of 137669  - Northeast Mens Clinic--');
+mail.setHtmlBody(Body);
+mails.add(mail);
+Messaging.sendEmail(mails);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->getVisits
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<PPMDResults s="PRDW2WFE052F0B" lst="11/11/2019 7:21:18 AM"><Results servertime="2019-11-11T07:21:16.473" visitcount="1"><visitlist><visit id="57055" visit_uid="57055" patientid="11249" columnheading="BR PROVIDER" appointmenttypeid="3366" appointmenttype="NEW INTAKE" visitstartdatetime="2019-11-12T14:00:00" visitdate="11/12/2019" visitstarttime=" 2:00PM" duration="15" color="GREEN     " profilecode="TALDMD" profilename="ALDERSON,THOMAS" profileuid="110" providername="ALDERSON,THOMAS" provideremail="thomasalderson@ymail.com" comments="" apptstatus="0" arrivetime="" othertime="" seentime="" chargesposted="1" confirmmethod="" confirmedat="" confirmedby="            " episode="STANDARD" facilitycode="BRMC " facilityname="BATON ROUGE MEN'S CLINIC" visitnote="" insurancebillingorder="" acceptassignment="0" forcepaperclaim="0" createdat="2019-11-11T07:00:57.330" createdby="GNEEL       " modifiedat="2019-11-11T07:00:57.330" modifiedby="GNEEL       " reftype=" " refreason="" refcreation="" refexpiration="" byrefprovcode="      " byrefprovlastname="" byrefprovfirstname="" byrefprovmiddlename="" byrefprovtitle="" byreferringproviderfid="0" updatestatus="N" istelemedicine="0"><patientlist><patient id="11249" lastname="HOLLINS" firstname="KEITH" middlename="" name="HOLLINS,KEITH" chart="373         " title="MR" address1="" address2="" zip="70809     " city="" state="" officephone="                         " officeext="      " homephone="                         " otherphone="9857053897               " additionalmrn="" ethnicityid="0" languageid="44" maritalstatusid="6" othertype="CELL" email="KHOLLINS50@YAHOO.COM" maritalstatus="UNKNOWN" dob="1959-06-03T00:00:00" deceased="" sex="M" ssn="            " relationship="SELF" hipaarelationship="18" ethnicity="" language="English" races="" ptinactivedate="" ptinactivestatuscode="" ptinactivedescription="" ptinactiveexcludedfromsearch="0" respparty="11709" rplastname="HOLLINS" rpfirstname="KEITH" rpmiddlename="" rpfullname="HOLLINS,KEITH" rpaddress1="" rpaddress2="" rpzipcode="70809     " rpcity="" rpstate="" rpemployer="" rpaccttypecode="TA" rpaccttypedescription="TYPICAL ACCOUNT" rpofficephone="                         " rpofficeextension="      " rphomephone="                         " rpotherphone="9857053897               " rpotherphonetype="CELL" rpemail="KHOLLINS50@YAHOO.COM" rpdob="1959-06-03T00:00:00" rpgender="M" rpssn="            " rptitle="MR" rpemploymentstatus="1" rpcreatedat="2019-11-11T07:00:20.860" rpcreatedby="GNEEL       " rpdisplay="1" rpchangedat="" rpchangedby="" provider="105" profile="110" profilecode="TALDMD" profilename="ALDERSON,THOMAS" provlastname="ALDERSON" provfirstname="THOMAS" provmiddlename="" provfullname="ALDERSON,THOMAS" provtitle="MD" finclass="12" finclasscode="SP" finclassdescription="SELF PAY" employerid="0" employer="" insorder="" createdat="2019-11-11T07:00:20.813" createdby="GNEEL       " changedat="" changedby="" iccreatedat="" icchangedat="" refplanchangedat="2019-11-11T07:00:20.860" customdatachangedat="" episodechangedat="2019-11-11T07:00:20.860" /></patientlist></visit></visitlist></Results></PPMDResults>
+
+
+
+
+
+
+
+
+
+
+-->getTxHistory
+<PPMDResults s="PRDW2WFE052F0B" lst="11/11/2019 8:25:25 AM"><Results itemcount="0" pagecount="1" page="1" itemsfrom="0" itemsto="0" maxunfiltereddate="1900-01-01T00:00:00" oldestcharge="1900-01-01T00:00:00" newestcharge="1900-01-01T00:00:00" sumpatcharges="0.00" suminscharges="0.00" sumpatpayments="0.00" suminspayments="0.00" sumpatwriteoffs="0.00" suminswriteoffs="0.00" sumpatbal="0.00" suminsbal="0.00" totalbal="0.00" historycarriercode="1"><chargelist><charge id="102095" patientid="12345" patient="KHAN,TEA199" proccode="00104" b="0" i="1" createtime="2006-01-31T13:00:39" provcode="LARSE" provname="LARSEN,KAREN" faccode="RAD1" facname="RAD1" visit="101629" fee="39.12" paid="0.00" patbal="0.00" insbal="39.12" totbal="39.12" carrier="" resppartyid="64392" resppartyname="KHAN,TEA199" dos="01/21/2006" agingdate="01/31/2006" totalvisitcharge="39.12" paymentplan="0" void="0" protected="0" seq="20060121101629" chargeseq="20060121" approvedat="" approvedby="" isinstitutional="0"><paymentlist/><writeofflist/></charge>
+</chargelist><unappliedpaymentlist /><unappliedwriteofflist /></Results></PPMDResults>
+
+
+
+
+
+
+
+
+
+
+-->postPatient
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
